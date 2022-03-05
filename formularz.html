@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Projekt 1</title>
+		<link rel="shortcut icon" href="grafika/favicon.ico">
+		<link rel="stylesheet" href="styleformularz.css">
+	</head>
+	<body>
+		<header>
+			<h1>Formularz</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="radaO5.html">Rada O5</a></li>
+				<li><a href="Raporty.html">Raporty</a></li>
+				<li><a href="formularz.html">Formularz</a></li>
+			</ul>
+		</nav>
+		<section>
+			<form action="mailto:maksymilian.rowinski@zsmeie.torun.pl" method="post" enctype="text/plain"><div>
+				<input name="Imię">Podaj swoje imię<br>
+				<input name="Nazwisko">Podaj swoje nazwisko
+				<p>Podaj swoją płeć:</p>
+				<input type="radio" name="Płeć" value="Kobieta">Kobieta
+				<input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+				<p>Ile masz lat?</p>
+				<input type="radio" name="Wiek" value="mniej niż 15">mniej niż 15<br>
+				<input type="radio" name="Wiek" value="15-19">15-19<br>
+				<input type="radio" name="Wiek" value="20-29">20-29<br>
+				<input type="radio" name="Wiek" value="30-39">30-39<br>
+				<input type="radio" name="Wiek" value="40-60">40-60<br>
+				<input type="radio" name="Wiek" value="więcej niż 60">więcej niż 60 
+					<p>jaką ukończyłeś szkołę?</p>
+					<input type="checkbox" name="wykształcenie" value="liceum">liceum<br>
+					<input type="checkbox" name="wykształcenie" value="technikum">technikum<br>
+					<input type="checkbox" name="wykształcenie" value="branżowa">branżowa<br>
+					Inna(wpisz jaka)<input name="wykształcenie">
+					</select>
+				</select>
+				<p>Jakie masz wykwalifikowanie?(możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+				<select name="Wykształcenie" multiple size="9">
+					<option selected>Wyższe</option>
+					<option>Informatyczne</option>
+					<option>Biologiczne</option>
+					<option>Chumanistyczne</option>
+					<option>Administracyjne</option>
+					<option>Bankowe</option>
+					<option>Naukowe</option>
+					<option>zabezpieczanie Anomali</option>
+					<option>Militarne</option>
+				</select>
+				<p>Czy będziesz całkowicie oddany fundacji? oraz dlaczego chcesz do niej wstąpić?</p>
+				<textarea name="Komentarz" cols="50" rows="10">Podaj odpowiedź</textarea>
+				<br><br><br>
+				<input type="submit" value="Wyślij formularz">
+				<input type="reset" value="Wyczyść dane">
+		</section>
+		<footer>
+			<b><p>UWAGA!!! RAZ WYSŁANEGO FORMULARZA NIE DA SIE COFNĄĆ!!! 				Made By Maks Rowiński</p></b>
+		</footer>
+	</body>
+</html>
